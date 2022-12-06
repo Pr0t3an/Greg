@@ -6,7 +6,7 @@ Cross Platform (written in GO) parse for Windows XML task files.  Manually creat
 Takes directory of Tasks as an input parameter and can be output to screen -s and/or a csv with -o flag
 
 Check releases for pre-compiled version (this wont always be updated in line with other changes) - but will do my best
-<---
+<code>
 -----------
 
 Usage
@@ -34,7 +34,7 @@ Arguments:
   -o  --outputdir  (optional) param. Output Directory
   -s  --show       Dont Output to a file - show me the results onscreen
   
----->
+</code>
 
 example
 
