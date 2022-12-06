@@ -111,7 +111,7 @@ func getalltaskfiles(path string) {
 			parseTask(path)
 			if err != nil {
 				ct.Foreground(ct.Yellow, true)
-				fmt.Println("[-] Failed to parse task:", err)c
+				fmt.Println("[-] Failed to parse task:", err)
 				ct.ResetColor()
 			}
 		}
